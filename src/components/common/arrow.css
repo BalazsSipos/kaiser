@@ -1,0 +1,26 @@
+@keyframes pulse-arrow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+
+.arrow1 {
+  opacity: 0;
+  animation: pulse-arrow 2.5s ease-in-out 3.1s infinite;
+}
+
+.arrow2 {
+  opacity: 0;
+  animation: pulse-arrow 2.5s ease-in-out 3.5s infinite;
+}
+
+.arrow3 {
+  opacity: 0;
+  animation: pulse-arrow 2.5s ease-in-out 3.9s infinite;
+}
