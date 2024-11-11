@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center gap-20 bg-zinc-950 p-5 sm:p-20 py-10">
       <h1>ATLÉTIKA SZAKOSZTÁLY</h1>
-      <main className="flex flex-col xl:flex-row gap-16 justify-items-center items-center">
+      <main className="flex flex-col xl:flex-row gap-16 justify-items-center ">
         <div className="flex flex-col lg:flex-row gap-16 basis-2/3">
           <div className="flex flex-col basis-1/2 gap-6">
             <h2 className="self-center">EDZÉSEK</h2>
