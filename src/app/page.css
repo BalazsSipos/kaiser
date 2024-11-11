@@ -1,0 +1,26 @@
+@keyframes appear {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+    transform: scale(0.95);
+  }
+}
+
+.logo {
+  opacity: 0;
+  animation: appear 2s ease-out 0.5s forwards,
+    pulse 2.5s ease-in-out 2.7s infinite alternate;
+}
