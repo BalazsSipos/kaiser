@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import kaiser from '@assets/Kaiser-circle.png';
+import kaiser from '@assets/kaiser-circle.png';
 import Footer from '@components/common/Footer';
 import Departments from '@components/departments/Departments';
 import './page.css';
