@@ -37,7 +37,7 @@ const athletes: ProfileProps[] = [
     sports: ['hammer'],
     medals: [
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'gold',
         quantity: 2,
@@ -52,19 +52,19 @@ const athletes: ProfileProps[] = [
     sports: ['walking'],
     medals: [
       {
-        competitionAbbreviation: 'VB',
+        competitionAbbreviation: 'vb',
         competitionName: 'Szenior Világbajnokság',
         medal: 'silver',
         quantity: 2,
       },
       {
-        competitionAbbreviation: 'EB',
+        competitionAbbreviation: 'eb',
         competitionName: 'Szenior Európabajnokság',
         medal: 'gold',
         quantity: 3,
       },
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'gold',
         quantity: 13,
@@ -79,7 +79,7 @@ const athletes: ProfileProps[] = [
     sports: ['atlétika'],
     medals: [
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'gold',
         quantity: 17,
@@ -109,7 +109,7 @@ const athletes: ProfileProps[] = [
     sports: ['javelin'],
     medals: [
       {
-        competitionAbbreviation: 'BB',
+        competitionAbbreviation: 'bb',
         competitionName: 'Budapest Bajnokság',
         medal: 'bronze',
         quantity: 1,
@@ -214,7 +214,7 @@ const athletes: ProfileProps[] = [
     sports: ['sprint'],
     medals: [
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'gold',
         quantity: 1,
@@ -244,13 +244,13 @@ const athletes: ProfileProps[] = [
     sports: ['multi'],
     medals: [
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'silver',
         quantity: 2,
       },
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'bronze',
         quantity: 3,
@@ -286,7 +286,7 @@ const athletes: ProfileProps[] = [
     sports: ['long run'],
     medals: [
       {
-        competitionAbbreviation: 'OB',
+        competitionAbbreviation: 'ob',
         competitionName: 'Szenior Országos Bajnokság',
         medal: 'silver',
         quantity: 2,
