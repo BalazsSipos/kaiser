@@ -1,7 +1,7 @@
 'use client';
 import Anchor from '@components/common/Anchor';
-import athletics from '@assets/Javelin-white.png';
-import martial from '@assets/Martial-white.png';
+import athletics from '@assets/javelin-white.png';
+import martial from '@assets/martial-white.png';
 import { useEffect, useRef } from 'react';
 
 export default function Departments() {
@@ -58,9 +58,7 @@ export default function Departments() {
 
   return (
     <div className="initial" ref={targetRef}>
-      <h1 className="lg:text-6xl text-4xl text-center pt-32 pb-16">
-        SZAKOSZTÁLYAINK
-      </h1>
+      <h1 className="text-center">SZAKOSZTÁLYAINK</h1>
       <main className="flex flex-wrap justify-evenly gap-10 sm:gap-0 py-20">
         <Anchor {...anchor1}></Anchor>
         <Anchor {...anchor2}></Anchor>

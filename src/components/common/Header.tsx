@@ -15,13 +15,13 @@ export default function Header() {
       {isOpen && (
         <div className="flex flex-col gap-10 justify-center items-center h-screen w-screen fixed bg-zinc-900 transition ease-in-out">
           <Link onClick={() => setIsOpen(false)} href="/">
-            <h1>Főoldal</h1>
+            <h2>Főoldal</h2>
           </Link>
           <Link onClick={() => setIsOpen(false)} href="/departments/athletics">
-            <h1>Atlétika</h1>
+            <h2>Atlétika</h2>
           </Link>
           <Link onClick={() => setIsOpen(false)} href="/departments/fighting">
-            <h1>Küzdősport</h1>
+            <h2>Küzdősport</h2>
           </Link>
         </div>
       )}

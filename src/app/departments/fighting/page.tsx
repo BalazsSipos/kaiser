@@ -78,9 +78,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="basis-1/3">
-          <h2 className="text-center">Edző: Bakos László 3. dan mester</h2>
-          <h3 className="text-center">Tel: +36/30-49-55-943</h3>
+        <div className="flex flex-col items-center justify-items-center basis-1/3">
+          <h2>Edző: Bakos László 3. dan mester</h2>
+          <h3>Tel: +36/30-49-55-943</h3>
           <Image
             src={mester}
             alt="Kaiser logo"
